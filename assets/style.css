@@ -1,0 +1,68 @@
+body {
+    font-family: 'Finlandica', sans-serif;
+    font-family: 'Francois One', sans-serif;
+}
+
+section {
+    height: 500px;
+    background-color: white;
+    border: solid black 1px;
+
+}
+
+.hero {
+    background-color: #1c1d25;
+    height: 100vh;
+    color: white;
+    font-size: 40px;
+}
+
+footer {
+    height: 500px;
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    /*justify-content: space-around;*/
+    font-size: 30px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+li {
+    width: 200px;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 90px;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    font-weight: 100px;
+}
+
+.hero-text {
+    margin-left: 40px;
+}
+
+.button {
+    width: 200px;
+    height: 60px;
+    background-color: coral;
+    border-radius: 30px;
+    text-align: center;
+    /*font-size: 30px;*/
+    /*font-weight: 300;*/
+}
