@@ -1,6 +1,7 @@
 body {
     font-family: 'Finlandica', sans-serif;
     font-family: 'Francois One', sans-serif;
+    margin: 0px;
 }
 
 section {
@@ -25,9 +26,9 @@ footer {
 nav {
     display: flex;
     justify-content: space-between;
-    width: 500px;
-    /*justify-content: space-around;*/
-    font-size: 30px;
+    /* width: 500px;
+    justify-content: space-around;
+    font-size: 30px; */
 }
 
 ul {
@@ -53,8 +54,16 @@ p {
     font-weight: 100px;
 }
 
+.hero-area {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+}
+
 .hero-text {
-    margin-left: 40px;
+    margin-left: 75px;
+    margin-bottom: 600px;
 }
 
 .button {
@@ -65,4 +74,18 @@ p {
     text-align: center;
     /*font-size: 30px;*/
     /*font-weight: 300;*/
+}
+
+.button:hover {
+    background-color:#ef744b; 
+}
+
+.button:active {
+    background-color: #898989;
+    color: #808080;
+}
+
+.logo {
+ height: 75px;  
+ margin: 30px; 
 }
