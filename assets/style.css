@@ -78,6 +78,7 @@ p {
     text-align: center;
     /*font-size: 30px;*/
     /*font-weight: 300;*/
+    margin-top: 25px;
 }
 
 .button:hover {
@@ -98,6 +99,8 @@ p {
     display: flex;
     justify-content: space-around;
     padding: 80px; 
+    font-size: 35px;
+    background-color: #3e567c;
 }
 
 .sub-section-alt {
@@ -130,4 +133,24 @@ p {
 .subtext {
     font-size: 15px;
     font-weight: 300px;
+}
+
+.project-cardMain {
+    width: 500px;
+    height: 600px;
+    border: 1px solid black;
+}
+
+.mainProj {
+    width: 350px;
+    height: 350px;
+    padding-top: 15px;
+}
+
+.sub-section-alt {
+    background-color:#3e567c ;
+}
+
+.footer {
+    background-color: #3e567c;
 }
